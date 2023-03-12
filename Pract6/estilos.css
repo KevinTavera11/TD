@@ -1,0 +1,30 @@
+p{
+    color: #000;
+    text-align: center;
+    background-color: yellow;
+    margin: 50px;
+    padding: 25px;
+  }
+  
+  #para1{
+    color: red;
+  }
+  .seleccionado {
+    color: aquamarine;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.5;
+  }
+  .titulo{
+    font-size: 100px;
+  }
+  h1,p{
+    background-color: cyan;
+  }
+
+  div > p {
+    background-color: yellow;
+    border: 10px solid purple;
+    margin-bottom: 300px;
+  }

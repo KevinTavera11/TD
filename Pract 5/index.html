@@ -44,7 +44,29 @@ ines (45 sloc)  1.87 KB
             <textarea name="mensaje" required id="mensaje" cols="30" rows="3"></textarea>
             <br><br><br>
             <input type="submit" value="Enviar">
-
+            <select name="paises" id="paises">
+                <option value="1">EU</option>
+                <option value="2">Canada</option>
+                <option value="3">Japon</option>
+                <option value="3">Irlanda</option>
+            </select>
+            <form action="Formulario">
+                    <label for="Usuario">Usuario</label>
+                <input type="text" name="Usuario">
+                    <label for="password"></label>
+                <input required type="password" name="password">
+                <input type="submit" name="Enviar">
+            </form>
+            <form name="Formal">
+                <label for="Color">Selecciona un Color</label>
+                <input type="color" name="Color">
+                <label for="Nac">Fecha</label>
+                <input type="date" name="Nac">
+                <p>
+                    <label for="entrada">Entrada</label>
+                    <input type="datetime-local" name="entrada">
+                </p>
+            </form>
         </fieldset>
     </form>
 </body>
